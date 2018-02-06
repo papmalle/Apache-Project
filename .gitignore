@@ -1,0 +1,91 @@
+target/
+!.mvn/wrapper/maven-wrapper.jar
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+### NetBeans ###
+nbproject/private/
+build/
+nbbuild/
+dist/
+nbdist/
+.nb-gradle/
+
+
+# BforBank .gitignore file #
+# since : 07 July 2014 #
+
+# Directories #
+/build/
+/bin/
+target/
+generated-java/
+logs/
+#/ec-web/src/main/resources/static/bower_components/
+node_modules/
+test-output/
+
+*.class
+
+# Package Files #
+*.jar
+*.war
+*.ear
+*.db
+
+######################
+# Windows
+######################
+
+# Windows image file caches
+Thumbs.db
+
+# Folder config file
+Desktop.ini
+
+######################
+# OS X
+######################
+.DS_Store
+
+# Thumbnails
+._*
+# Files that might appear on external disk
+.Spotlight-V100
+.Trashes
+
+######################
+# Eclipse
+######################
+.project
+.metadata
+bin/**
+tmp/**
+tmp/**/*
+*.tmp
+*.bak
+.classpath
+.settings/
+
+######################
+# IntelliJ IDEA
+######################
+.idea/
+*.iml
+
+######################
+Services générés jaxws
+######################
+generated-java/**/ec-web/
